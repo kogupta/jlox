@@ -127,10 +127,10 @@ Run all the tests in the be.guldentops.geert.lox.LoxAcceptanceTest class
                 
 ## Lox Precedence Rules ##
 
-Name            |       Operators       | Associates
-:--------------:|:---------------------:|:---------:
-Unary           |   `!` `-`             | Right
-Multiplication  |   `/` `*`             | Left
-Addition        |   `-` `+`             | Left
-Comparison      |   `>` `>=` `<` `<=`   | Left
-Equality        |   `==` `!=`           | Left
+|      Name      |     Operators     | Associates |
+|:--------------:|:-----------------:|:----------:|
+|     Unary      |      `!` `-`      |   Right    |
+| Multiplication |      `/` `*`      |    Left    |
+|    Addition    |      `-` `+`      |    Left    |
+|   Comparison   | `>` `>=` `<` `<=` |    Left    |
+|    Equality    |     `==` `!=`     |    Left    |
